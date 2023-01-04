@@ -1,0 +1,23 @@
+#acode-plugin-lesscss{
+    .logArea{
+        height: 100%;
+        overflow: auto;
+        color: var(--error-text-color);
+        padding: 20px 5px 20px 5px;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+		&::-webkit-scrollbar {
+			width: 8px;
+		}
+		&::-webkit-scrollbar-track {
+			background: var(--secondary-color);
+		}
+		&::-webkit-scrollbar-thumb {
+			background: var(--scrollbar-color);
+		}
+    }
+}
