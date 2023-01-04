@@ -1,5 +1,5 @@
 {
-  "id": "acode.plugin.less.compiler",
+  "id": "acode.plugin.lesscompiler",
   "name": "Less Compiler",
   "main": "dist/main.js",
   "version": "1.0.0",
